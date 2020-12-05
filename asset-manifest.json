@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/eat-without-wheat/static/css/main.706e3b81.chunk.css",
+    "main.js": "/eat-without-wheat/static/js/main.e61157ed.chunk.js",
+    "main.js.map": "/eat-without-wheat/static/js/main.e61157ed.chunk.js.map",
+    "runtime-main.js": "/eat-without-wheat/static/js/runtime-main.cb4a92de.js",
+    "runtime-main.js.map": "/eat-without-wheat/static/js/runtime-main.cb4a92de.js.map",
+    "static/js/2.9beaf54e.chunk.js": "/eat-without-wheat/static/js/2.9beaf54e.chunk.js",
+    "static/js/2.9beaf54e.chunk.js.map": "/eat-without-wheat/static/js/2.9beaf54e.chunk.js.map",
+    "index.html": "/eat-without-wheat/index.html",
+    "static/css/main.706e3b81.chunk.css.map": "/eat-without-wheat/static/css/main.706e3b81.chunk.css.map",
+    "static/js/2.9beaf54e.chunk.js.LICENSE.txt": "/eat-without-wheat/static/js/2.9beaf54e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb4a92de.js",
+    "static/js/2.9beaf54e.chunk.js",
+    "static/css/main.706e3b81.chunk.css",
+    "static/js/main.e61157ed.chunk.js"
+  ]
+}
