@@ -1,38 +1,91 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+* {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
 .App {
-  text-align: center;
+    min-height: 100vh;
+    max-width: 90vw;
+    margin: auto;
+}
+.header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+    padding-top: 20px;
+    font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-form {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-bar {
+    width: 50%;
+    padding: 10px;
+    background: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search-button {
+    padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px;
+    
+    
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    justify-content: space-around;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+
+
+}
+.recipe {
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+    border: solid 1px black;
+    margin: 20px
+}
+
+img {
+    border-radius: 5px;
 }
