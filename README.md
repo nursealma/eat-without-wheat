@@ -1,1 +1,1 @@
-A simple app built in React demonstrating API calls and parsing the results. User inputs a keyword (an ingredient or cuisine) and the app returns several relavent gluten free dishes. The API used is "spoonacular".
+A simple app built in React demonstrating API calls and parsing the results. User inputs a keyword (an ingredient or cuisine) and the app returns several relevent gluten free dishes. The API used is "spoonacular".
